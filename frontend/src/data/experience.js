@@ -1,0 +1,47 @@
+export const experience = [
+  {
+    title: 'Generative AI Engineer',
+    company: 'Northern Trust',
+    location: 'Remote',
+    startDate: 'Sep 2025',
+    endDate: null,
+    bullets: [
+      'Designed and deployed production AI services using Python, FastAPI, Docker, Cloud Run, and Vertex AI for scalable fraud detection and credit risk workflows.',
+      'Built Retrieval-Augmented Generation (RAG) solutions using Vertex AI embeddings to enable intelligent search across underwriting, compliance, and policy documents.',
+      'Developed scalable feature engineering and data processing pipelines using PySpark, BigQuery, and Dataproc to support machine learning models on large banking datasets.',
+      'Implemented real-time inference pipelines using Pub/Sub, Dataflow, and Vertex AI Endpoints for low-latency AI predictions.',
+      'Developed prompt libraries for document summarization, question answering, and knowledge retrieval.',
+      'Collaborated with data engineers, fraud analysts, and business stakeholders to deliver secure, production-ready AI solutions aligned with regulatory requirements.',
+    ],
+  },
+  {
+    title: 'AI/ML Engineer',
+    company: 'Humana',
+    location: 'Remote',
+    startDate: 'May 2024',
+    endDate: 'Aug 2025',
+    bullets: [
+      'Developed Hybrid RAG applications using Azure OpenAI, LlamaIndex, and FAISS to provide clinicians with contextual access to medical guidelines and historical patient information.',
+      'Designed Agentic AI workflows using LangChain and LangGraph to orchestrate multi-step reasoning and clinical decision support.',
+      'Integrated Model Context Protocol (MCP) to enable communication between AI agents, enterprise services, and retrieval systems.',
+      'Built NLP pipelines using BioBERT, Hugging Face Transformers, and spaCy to extract clinical entities from physician notes and medical documents.',
+      'Deployed scalable AI applications using FastAPI, Docker, Azure Kubernetes Service (AKS), and MLflow, supporting production deployment and monitoring.',
+      'Implemented observability and governance using Prometheus, Grafana, LangSmith, and HIPAA-compliant security practices to monitor AI system performance.',
+      'Designed reusable system prompts, few-shot prompting strategies, and structured output templates for enterprise AI applications.',
+    ],
+  },
+  {
+    title: 'Python Developer',
+    company: 'Birlasoft',
+    location: 'Hyderabad',
+    startDate: 'Apr 2021',
+    endDate: 'Jul 2023',
+    bullets: [
+      'Developed Python and SQL data processing pipelines for customer analytics and large-scale banking datasets.',
+      'Built machine learning models for customer churn prediction and segmentation using Scikit-learn and feature engineering techniques.',
+      'Processed enterprise datasets using PySpark, Hadoop, and Hive to support scalable analytics and reporting.',
+      'Created business dashboards and visualizations using Tableau and Matplotlib to communicate analytical insights.',
+      'Collaborated with cross-functional Agile teams to deliver data-driven solutions supporting customer engagement and business decision-making.',
+    ],
+  },
+]
